@@ -1,0 +1,28 @@
+:root {
+  --purchase-btn-color: #5BBCFF;
+  --purchase-btn-hover-color: #5BBCFF;
+}
+
+.grid-divider {
+    border-right: 0px solid #ccc;
+}
+  
+.grid-divider:last-child {
+    border-right: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#purchase_btn {
+  background-color: var(--purchase-btn-color);
+  border-color: var(--purchase-btn-color);
+  color: white;
+
+}
+
+#purchase_btn:hover {
+  background-color: var(--purchase-btn-hover-color);
+  color: white;
+}

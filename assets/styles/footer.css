@@ -1,0 +1,22 @@
+:root {
+    --footer-color: #7EA1FF;
+    --footer-text-color: #FFF5E0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--footer-color);
+}
+
+footer .text-center {
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 10px;
+}
+
+footer .text-center a {
+    color: var(--footer-text-color);
+}

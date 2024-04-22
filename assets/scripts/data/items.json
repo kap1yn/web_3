@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "category": "laptop",
+      "name": "Apple MacBook Pro 13-inch",
+      "price": 1299.00,
+      "img": "assets/images/macbook_pro_13_inch.jpg"
+    },
+    {
+      "id": 2,
+      "category": "phone",
+      "name": "Samsung Galaxy S21 Ultra",
+      "price": 1199.99,
+      "img": "assets/images/samsung_galaxy_s21_ultra.jpg"
+    },
+    {
+      "id": 3,
+      "category": "peripherals",
+      "name": "Logitech MX Master 3 Wireless Mouse",
+      "price": 99.99,
+      "img": "assets/images/logitech_mx_master_3.jpg"
+    },
+    {
+      "id": 4,
+      "category": "laptop",
+      "name": "Dell XPS 15",
+      "price": 1599.00,
+      "img": "assets/images/dell_xps_15.jpg"
+    },
+    {
+      "id": 5,
+      "category": "phone",
+      "name": "iPhone 15 Pro Max",
+      "price": 1041.00,
+      "img": "assets/images/iphone_15_pro_max.jpg"
+    },
+    {
+      "id": 6,
+      "category": "peripherals",
+      "name": "HyperX Alloy Origins Core Red",
+      "price": 85.42,
+      "img": "assets/images/hyperx_alloy_fps_pro.jpg"
+    },
+    {
+      "id": 7,
+      "category": "laptop",
+      "name": "Microsoft Surface Laptop 4",
+      "price": 1299.99,
+      "img": "assets/images/microsoft_surface_laptop_4.jpg"
+    },
+    {
+      "id": 8,
+      "category": "phone",
+      "name": "Google Pixel Fold",
+      "price": 1515.36,
+      "img": "assets/images/google_pixel_fold.jpg"
+    },
+    {
+      "id": 9,
+      "category": "peripherals",
+      "name": "SteelSeries Rival 3 Gaming Mouse",
+      "price": 39.99,
+      "img": "assets/images/steelseries_rival_3.jpg"
+    },
+    {
+      "id": 10,
+      "category": "laptop",
+      "name": "ASUS ROG Zephyrus G14",
+      "price": 1499.00,
+      "img": "assets/images/asus_rog_zephyrus_g14.jpg"
+    }
+  ]
+  

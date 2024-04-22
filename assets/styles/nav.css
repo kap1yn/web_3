@@ -1,0 +1,38 @@
+:root {
+    --nav-color: #5BBCFF;
+    --nav-text-color: #FFF5E0;
+    --nav-btn-color: #ff00ee;
+    --nav-btn-hover-color: #050812;
+    --nav-logo-size: 50px;
+}
+
+nav {
+    margin-bottom: 30px;
+    background-color: var(--nav-color);
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.tree__logo {
+    height: var(--nav-logo-size);
+}
+
+nav .btn {
+    background-color: var(--nav-btn-color);
+    border: none;
+    color: white;
+
+}
+
+nav .btn:hover {
+    background-color: var(--nav-btn-hover-color);
+    color: white;
+}
+
+nav .login__ico {
+    width: 30px;
+    height: 30px;
+    color: var(--nav-text-color);
+}
