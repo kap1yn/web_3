@@ -1,18 +1,19 @@
 let products = JSON.parse(localStorage.getItem('products')) || [];
 
-fetch('assets/scripts/data/items.json').then(
-    response => { 
-        return response.json()
-    }
-    ).then(data => {
-        products = data
+fetch('assets/scripts/data/items.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        products = data;
         localStorage.setItem('products', JSON.stringify(products));
-        
-    }
-    ).catch(err => {
-        console.log(err)
-    }
-)
+    })
+    .catch(err => {
+        console.error('Fetch error:', err);
+    });
 
 $(document).ready(function() {
     loadProducts();
